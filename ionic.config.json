@@ -1,0 +1,7 @@
+{
+  "name": "dm_hq",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
