@@ -10,6 +10,9 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { Splash } from '../pages/splash/splash';
+import { StreamingMedia, StreamingVideoOptions } from '@ionic-native/streaming-media';
+import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
+
 
 @NgModule({
   declarations: [
@@ -36,6 +39,8 @@ import { Splash } from '../pages/splash/splash';
   providers: [
     StatusBar,
     SplashScreen,
+    StreamingMedia,
+    YoutubeVideoPlayer,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

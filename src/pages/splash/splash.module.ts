@@ -4,7 +4,7 @@ import { Splash } from './splash';
 
 @NgModule({
   declarations: [
-    SplashPage,
+    Splash,
   ],
   imports: [
     IonicPageModule.forChild(Splash),
